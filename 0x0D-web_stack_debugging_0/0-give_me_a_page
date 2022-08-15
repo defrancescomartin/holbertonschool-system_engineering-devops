@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-# Debug a server with Apache stopped
+# this is the command that we use to start apache into our server
+# and after this we use the command curl to print the specified msg
 sudo service apache2 start
