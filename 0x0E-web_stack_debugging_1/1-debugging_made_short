@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Using what you did for task #0, make your fix short and sweet
-
-ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
+rm -f /etc/nginx/sites-enabled/default
+ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/
 service nginx restart
-pkill -1 -f 'nginx'
