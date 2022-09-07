@@ -1,5 +1,3 @@
-
-
 #!/usr/bin/python3
 """Exports results to an csv file"""
 import csv
