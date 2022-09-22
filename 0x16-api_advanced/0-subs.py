@@ -25,4 +25,4 @@ def number_of_subscribers(subreddit):
         return 0
 
     # If the subreddit is valid -> Return the sub number
-    return resp.json().get('data').get('suscribers')
+    return resp.json().get('data').get('subscribers')
